@@ -14,8 +14,6 @@ if (storedTheme) {
     document.getElementById("changeTheme").className = "changeTheme-light";
   }
 }
-if (storedTheme)
-  document.documentElement.setAttribute("data-theme", storedTheme);
 
 toggle.onclick = function () {
   const currentTheme = document.documentElement.getAttribute("data-theme");
